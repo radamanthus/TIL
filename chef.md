@@ -1,5 +1,3 @@
-# January 12, 2017
-
 ## Chef
 
 `package`'s  `action :upgrade` always installs the latest available version, even if you specify an earlier version
@@ -14,15 +12,3 @@ end
 If you want to install a specific version, use `action :install` instead.
 
 https://docs.chef.io/resource_package.html
-
-## Ruby
-
-Which gems in my Gemfile are using native libraries?
-
-Run this from irb:
-
-```
-puts `bundle show --paths`.split("\n").select{ |dep| File.directory?("#{dep}/ext") }.map{ |dep| dep.split('/').last }.join("\n")
-```
-
-From: https://devcenter.heroku.com/articles/ruby-segfault
