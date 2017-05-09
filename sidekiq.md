@@ -20,3 +20,16 @@ end
 ```
 
 The above code parses `config/redis.yml` to determine the Redis host. The [Redis recipe](https://github.com/engineyard/ey-cookbooks-stable-v5/tree/next-release/examples/redis) automatically creates `/data/<app_name>/shared/config/redis.yml` that points to the correct Redis host.
+
+If you're using Sidekiq-scheduler, you also need to tell it how to connect to Redis. Initializ `Sidekiq.schedule` from within the Sidekiq initializer:
+
+```
+Sidekiq.configure_server do |config|
+  config.redis = {
+    url: "redis://#{redis_config['host']}:#{redis_config['port']}"
+  }
+  config.on(:startup) do
+    Sidekiq.schedule = YAML.load_file(Rails.root + 'config/schedule.yml')
+  end
+end
+```
