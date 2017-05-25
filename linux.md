@@ -5,3 +5,9 @@ echo "Detailed Inode usage for: $(pwd)" ; for d infind -maxdepth 1 -type d |cut 
 ```
 
 From http://unix.stackexchange.com/a/193188
+
+## Get the process details, given the PID
+
+```
+ps -fwwp <PID>
+```
