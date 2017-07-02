@@ -1,3 +1,15 @@
+## Delete files that match a pattern
+
+If you're dealing with way too many files you'll get an "Argument list too long" error.
+
+This will delete files in the current directory that match the pattern "*.sess", and is older than 100 days.
+
+```
+find . -name "*.sess" -mtime +100 
+```
+
+From https://stackoverflow.com/a/27265081
+
 ## Get inode usage for the current directory
 
 ```
