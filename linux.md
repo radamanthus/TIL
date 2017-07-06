@@ -5,7 +5,7 @@ If you're dealing with way too many files you'll get an "Argument list too long"
 This will delete files in the current directory that match the pattern "*.sess", and is older than 100 days.
 
 ```
-find . -name "*.sess" -mtime +100 
+find . -name "*.sess" -mtime +100 -delete
 ```
 
 From https://stackoverflow.com/a/27265081
