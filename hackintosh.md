@@ -6,6 +6,11 @@ Install 10.13.2 using UniBeast
 
 Setup MultiBeast and Clover Configurator
 
+Enable TRIM support
+```
+sudo trimforce enable
+```
+
 Use MultiBeast to make ssd bootable
 
 Add the graphics card
