@@ -1,10 +1,14 @@
 # Setting up an Nvidia Pascal Graphics card
 
+Remove the graphics card
+
 Install 10.13.2 using UniBeast
 
 Setup MultiBeast and Clover Configurator
 
 Use MultiBeast to make ssd bootable
+
+Add the graphics card
 
 Follow the instructions in
 https://hackintosher.com/guides/properly-install-nvidia-drivers-high-sierra-10-13/
