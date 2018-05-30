@@ -10,6 +10,24 @@ find . -name "*.sess" -mtime +100 -delete
 
 From https://stackoverflow.com/a/27265081
 
+## Get the environment that cron runs in
+
+Add this to your cron:
+
+```
+* * * * * env > ~/cronenv
+```
+
+After it runs, do this:
+
+```
+env - `cat ~/cronenv` /bin/sh
+```
+
+This assumes that your cron runs /bin/sh, which is the default regardless of the user's default shell.
+
+From https://stackoverflow.com/a/2546509
+
 ## Get inode usage for the current directory
 
 ```
