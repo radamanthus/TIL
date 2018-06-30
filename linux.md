@@ -1,3 +1,32 @@
+## Create a swap file
+
+```
+sudo dd if=/dev/zero of=/mnt/4GB.swap bs=1024 count=4194304
+sudo mkswap /mnt/4GB.swap
+sudo swapon /mnt/4GB.swap
+sudo chmod 0600 /mnt/4GB.swap
+```
+
+Add this line to `/etc/fstab`:
+
+```
+/mnt/4GB.swap  none  swap  sw 0  0
+```
+
+Add this line to `/etc/sysctl.conf`:
+
+```
+vm.swappiness=10
+```
+
+Verify that the swap file is in use:
+
+```
+sudo swapon -s
+```
+
+From https://support.rackspace.com/how-to/create-a-linux-swap-file/
+
 ## Delete files that match a pattern
 
 If you're dealing with way too many files you'll get an "Argument list too long" error.
