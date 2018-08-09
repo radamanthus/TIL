@@ -16,3 +16,10 @@ So that next time you don't have to go through the "Create a new repository UI" 
 git remote add origin git@github.com:radamanthus/myawesomeproject.git
 git push -u origin master
 ```
+## Squash the last two commits into one
+
+```
+git rebase --interactive HEAD~2
+```
+
+If you've already pushed the first commit, you'll have to do a push force. This is considered bad practice, unless you're absolutely the only one working on this repository.
