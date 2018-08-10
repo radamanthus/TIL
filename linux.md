@@ -70,3 +70,9 @@ From http://unix.stackexchange.com/a/193188
 ```
 ps -fwwp <PID>
 ```
+
+## Get the Ubuntu version from the command line
+
+```
+lsb_release -a
+```
