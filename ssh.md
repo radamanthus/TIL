@@ -13,3 +13,14 @@ After logging in to <old-db_master> you should be able to copy files to the db_m
 ```
 scp -v <path-to-dump-file> deploy@<internal-ip-of-new-db_master>:<path-to-db-dump> 
 ```
+
+## Save your ssh password to the OSX keychain so you don't have to type it every time
+
+Edit (or create) `~/.ssh/config` and add `UseKeychain yes` to the `Host *` block:
+
+```
+Host *
+    UseKeychain yes
+```
+
+https://superuser.com/a/1158050
