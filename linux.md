@@ -55,6 +55,16 @@ find . -name "*.sess" -mtime +100 -delete
 
 From https://stackoverflow.com/a/27265081
 
+## Generate CPU Load
+
+This Linux pipeline forces the CPU to work on compressing a continuous stream of random data:
+
+```
+dd if=/dev/urandom | gzip -9 >> /dev/null &
+```
+
+This is useful if you're testing your CPU alerting system.
+
 ## Get the environment that cron runs in
 
 Add this to your cron:
