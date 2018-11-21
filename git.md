@@ -20,6 +20,12 @@ Then
 git mergetool
 ```
 
+## Configure git
+
+```
+git config --global core.editor "vim"
+```
+
 ## Push an existing repository to Github
 
 So that next time you don't have to go through the "Create a new repository UI" just to get these magic incantations
