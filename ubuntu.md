@@ -1,5 +1,13 @@
 # Ubuntu-specific tips
 
+### Copy from command line to GNOME clipboard
+
+```
+cat bigfile.txt | xclip -sel clip
+```
+
+https://gist.github.com/Brainiarc7/f5eb9a91973b62a0f71b4c4c6fbb9e03
+
 ### Get the Ubuntu version from the command line
 
 ```
