@@ -26,7 +26,7 @@ Codename:	xenial
 
 https://help.ubuntu.com/community/CheckingYourUbuntuVersion
 
-### Type a Unicode charactero
+### Type a Unicode character
 
 Press Ctrh-Shift-U then type the unicode number
 
