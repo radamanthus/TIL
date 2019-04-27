@@ -1,5 +1,7 @@
 # Start a new Rails+React project
 
+_Mini Project: Automate all or some of these using a Rails Application Template: https://edgeguides.rubyonrails.org/rails_application_templates.html_
+
 From: [react-rails README](https://github.com/reactjs/react-rails)
 
 Create a new Rails application
@@ -41,4 +43,10 @@ Render the component in a Rails view:
 
 ```
 <%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
+```
+
+Add the Semantic UI CSS to `application.html.erb` or a specific layout:
+
+```
+<%= stylesheet_link_tag    'application', "https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" %>
 ```
