@@ -50,3 +50,9 @@ Add the Semantic UI CSS to `application.html.erb` or a specific layout:
 ```
 <%= stylesheet_link_tag    'application', "https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" %>
 ```
+
+Add `semantic-ui-react` to `package.json`:
+
+```
+yarn add semantic-ui-react
+```
