@@ -5,13 +5,14 @@ From: [react-rails README](https://github.com/reactjs/react-rails)
 Create a new Rails application
 
 ```
-rails new my-app --webpacker
+rails new my-app
 cd my-app
 ```
 
-Add `react-rails` to Gemfile:
+Add the gems to the Gemfile:
 
 ```
+gem 'webpacker'
 gem 'react-rails'
 ```
 
