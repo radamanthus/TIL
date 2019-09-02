@@ -9,3 +9,17 @@ puts `bundle show --paths`.split("\n").select{ |dep| File.directory?("#{dep}/ext
 ```
 
 From: https://devcenter.heroku.com/articles/ruby-segfault
+
+## Freeze a string
+
+```
+-'my string'
+```
+
+More compact than 
+
+```
+'my string'.freeze
+```
+
+https://bugs.ruby-lang.org/issues/11782
