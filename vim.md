@@ -28,6 +28,12 @@ Undo: `u`
 Redo: `Ctrl-r`
 Repeat previous change: `.`
 
+#### Search
+
+Search within the document: `/` then type the search string
+Project-wide search: `:Ag <search string>` - this requires the Silver Searcher
+TODO: Setup `fzf and Rg`
+
 #### Selection
 
 Select word: `yw`
