@@ -23,3 +23,13 @@ More compact than
 ```
 
 https://bugs.ruby-lang.org/issues/11782
+
+## Read a CSV file from Heroku console
+
+Put the CSV file into a secret gist, then get the URL of the raw file.
+
+```
+require 'open-uri'
+file = open(url)
+lines = file.readlines
+```
