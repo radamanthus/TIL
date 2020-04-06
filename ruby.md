@@ -31,5 +31,6 @@ Put the CSV file into a secret gist, then get the URL of the raw file.
 ```
 require 'open-uri'
 file = open(url)
-lines = file.readlines
+csv = CSV.new(file)
+lines = csv.readlines
 ```
