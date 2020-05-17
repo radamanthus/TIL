@@ -1,3 +1,13 @@
+# Customize the desktop theme
+
+Use gnome-tweaks
+
+```
+sudo apt install gnome-tweaks
+```
+
+https://www.howtogeek.com/358049/how-to-install-desktop-themes-on-ubuntu-18.04-lts/
+
 # Remap capslock to ESC
 
 Use dconf-tools
@@ -5,8 +15,6 @@ Use dconf-tools
 https://askubuntu.com/a/365701
 
 # Read a macOS filesystem
-
-https://linuxnewbieguide.org/how-to-mount-macos-apfs-disk-volumes-in-linux/
 
 ```
 sudo apt install fuse libfuse3-dev libz-dev libicu-dev bzip2 libbz2-dev cmake clang git libattr1-dev 
@@ -20,6 +28,8 @@ cmake ..
 make
 sudo cp apfs-* /usr/local/bin
 ```
+
+https://linuxnewbieguide.org/how-to-mount-macos-apfs-disk-volumes-in-linux/
 
 # Read an exFAT filesystem
 
