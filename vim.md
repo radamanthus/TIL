@@ -28,6 +28,11 @@ Undo: `u`
 Redo: `Ctrl-r`
 Repeat previous change: `.`
 
+Type a Unicode character:
+- Go to Insert mode
+- Ctrl-v to go to ins-special-keys mode
+- u<unicode number> (e.g. 2713 to type a check mark)
+
 #### Search
 
 Search within the document: `/` then type the search string
