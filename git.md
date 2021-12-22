@@ -41,3 +41,23 @@ git rebase --interactive HEAD~2
 ```
 
 If you've already pushed the first commit, you'll have to do a push force. This is considered bad practice, unless you're absolutely the only one working on this repository.
+
+## Splitting a commit
+
+1. Edit the commit(s)
+
+Replace "3" with the actual number of commits to be edited:
+
+```
+git rebase -i HEAD~3
+```
+
+Mark the commits to be edited, then save
+
+2. Reset the commit
+
+```
+git reset HEAD^
+```
+
+3. Re-add the modified files to the staging area, and commit
