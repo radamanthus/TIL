@@ -61,3 +61,9 @@ git reset HEAD^
 ```
 
 3. Re-add the modified files to the staging area, and commit
+
+4. Finish the rebase when done
+
+```
+git rebase --continue
+```
