@@ -34,3 +34,10 @@ file = open(url)
 csv = CSV.new(file)
 lines = csv.readlines
 ```
+
+## Install eventmachine on Mac ARM
+
+```
+gem install eventmachine -v '1.2.7' -- --with-ldflags="-Wl,-undefined,dynamic_lookup"
+```
+
