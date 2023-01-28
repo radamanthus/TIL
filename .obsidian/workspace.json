@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b08d2040cc759b6",
+        "id": "8688691e7dcfb3db",
         "type": "tabs",
         "children": [
           {
-            "id": "4d8b80b0b1bf7728",
+            "id": "81a8ed5689f9e3f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d8b80b0b1bf7728",
+  "active": "81a8ed5689f9e3f7",
   "lastOpenFiles": [
+    "postgresql.md",
+    "vim.md",
+    "Test.md",
+    "ubuntu.md",
+    "asdf.md",
     "ruby.md",
     "chef.md"
   ]
