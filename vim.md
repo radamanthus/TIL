@@ -1,5 +1,13 @@
 # Vim
 
+## Install Vundle and plugins
+
+Download Vundle
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+Then `vim ~/.vimrc`
+and run `:PluginInstall` 
+
 ## Basics
 
 #### Navigation
@@ -64,3 +72,6 @@ http://vim.wikia.com/wiki/Converting_tabs_to_spaces
 
 gf - Open the class/file under the cursor
 vsplit - split vertically. Use Ctrl-l and Ctrl-h to move between windows
+
+
+
