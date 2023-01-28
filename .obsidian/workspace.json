@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asdf.md",
+                "file": "vim.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asdf.md",
+                "file": "vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asdf.md",
+                "file": "vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "asdf.md"
+                "file": "vim.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "81a8ed5689f9e3f7",
   "lastOpenFiles": [
+    "asdf.md",
     "postgresql.md",
     "vim.md",
     "Test.md",
     "ubuntu.md",
-    "asdf.md",
     "ruby.md",
     "chef.md"
   ]
