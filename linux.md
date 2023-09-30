@@ -102,3 +102,9 @@ ps -fwwp <PID>
 ```
 lsb_release -a
 ```
+
+## Copy a file to the clipboard
+
+```
+cat file | xclip
+```
