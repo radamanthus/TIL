@@ -21,4 +21,5 @@ plt.figure(figsize = (3, 1.5))
 plt.hist(duration, density = True)
 plt.axvline(15, color = 'r')
 plt.show()
+print((duration > 15).sum()/sims)
 ```
